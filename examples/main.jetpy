@@ -1,0 +1,8 @@
+# Ejemplo JetPy
+let name: String = "JetPy"
+let version: Float = 0.1
+
+def greet(person: String) -> void:
+    print(f"Hola, {person}. Bienvenido a {name} v{version}")
+
+greet("Pedro")
